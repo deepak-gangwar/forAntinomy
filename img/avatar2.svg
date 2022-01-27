@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcee21;
+      }
+
+      .cls-2 {
+        fill: #161616;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #161616;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <title>avatar2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="106" height="106"/>
+        <rect class="cls-2" x="27.5" y="28.03" width="10.95" height="10.95"/>
+        <rect class="cls-2" x="68.55" y="28.03" width="10.95" height="10.95"/>
+        <polyline class="cls-3" points="12.5 65.5 21.5 65.5 21.5 72.5 34.5 72.5 34.5 81.5 52.5 81.5"/>
+        <polyline class="cls-3" points="92.5 65.5 83.5 65.5 83.5 72.5 70.5 72.5 70.5 81.5 52.5 81.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
