@@ -1,0 +1,62 @@
+.s-workflow {
+    padding-bottom: 8.33vw;
+}
+@media only screen and (max-width: 768px) {
+    .s-workflow {
+        padding-bottom: 16.66vw;
+    }
+}
+.s-workflow .paragraph-r:last-of-type {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+    .s-workflow .paragraph-r:last-of-type {
+        margin-bottom: 8vw;
+    }
+}
+.s-workflow .workflow-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 8.33vw;
+    position: relative;
+}
+.s-workflow .workflow-container {
+    margin: 0 8.33vw;
+    padding-bottom: 8.33vw;
+}
+.s-workflow .workflow-column {
+    position: relative;
+}
+.s-workflow .workflow-column:first-child {
+    flex-basis: 25vw;
+    margin: 0 25vw 0 0;
+}
+@media only screen and (max-width: 768px) {
+    .s-workflow .workflow-column:first-child {
+        margin: 0;
+        flex-basis: unset;
+    }
+    h2 {
+        font-size: 12vw;
+    }
+    
+}
+.s-workflow .workflow-column:nth-child(2) {
+    flex-basis: 25vw;
+    padding-top: 16.66vw;
+}
+@media only screen and (max-width: 768px) {
+    .s-workflow .workflow-column:nth-child(2) {
+        margin: 0 0 16.66vw 0;
+        flex-basis: unset;
+    }
+}
+.s-workflow .workflow-column:nth-child(2) .paragraph-m {
+    display: inline-block;
+}
+.s-workflow .workflow-column:nth-child(2) .paragraph-r {
+    margin-bottom: 2.083vw;
+}
+.s-workflow .workflow-column:nth-child(2) .paragraph-r:last-of-type {
+    margin-bottom: 0;
+}
