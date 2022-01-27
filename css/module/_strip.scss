@@ -1,0 +1,45 @@
+.strip{
+  margin: 8.33vw 0;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  border-top: 1.5px solid #161616;
+  border-bottom: 1.5px solid #161616;
+}
+@media only screen and (max-width: 768px) {
+  .strip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+}
+
+.m{
+  --space: 1vw;
+  
+  font-size: 1.2vw;
+  white-space: nowrap;
+  animation: marquee 18s infinite linear;
+  padding-left: var(--space);
+  
+  &:after{
+    content: attr(data-text);
+    padding-left: var(--space);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .m {
+    font-size: 4.167vw;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-50%)
+  }
+}
